@@ -1,0 +1,293 @@
+[10Jun2025 11:51:00.398] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[10Jun2025 11:51:00.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[10Jun2025 11:51:00.694] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Jun2025 11:51:00.895] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Jun2025 11:51:01.386] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.389] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.390] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.392] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.595] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[10Jun2025 11:51:03.951] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Jun2025 11:51:03.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[10Jun2025 11:51:14.433] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[10Jun2025 11:51:14.437] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[10Jun2025 11:51:15.085] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.npc.Villager from class com.solegendary.reignofnether.unit.units.villagers.MilitiaUnit
+[10Jun2025 11:51:15.087] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.solegendary.reignofnether.unit.units.monsters.ZombieUnit from class com.solegendary.reignofnether.unit.units.neutral.EndermanUnit
+[10Jun2025 11:51:15.140] [modloading-worker-0/INFO] [com.solegendary.reignofnether.ReignOfNether/RESETPACKET]: Registering forge reset packet.
+[10Jun2025 11:51:15.150] [modloading-worker-0/INFO] [com.solegendary.reignofnether.ReignOfNether/RESETPACKET]: Registered forge reset packet successfully.
+[10Jun2025 11:51:15.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Jun2025 11:51:16.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[10Jun2025 11:51:17.092] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Jun2025 11:51:18.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[10Jun2025 11:51:18.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[10Jun2025 11:51:21.441] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10Jun2025 11:51:21.623] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[10Jun2025 11:51:22.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jun2025 11:51:22.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Jun2025 11:51:22.810] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Jun2025 11:51:22.921] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Jun2025 11:51:22.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Jun2025 11:51:24.722] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[10Jun2025 11:51:29.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jun2025 11:51:31.535] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[10Jun2025 11:51:32.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.911] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.937] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.970] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.979] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.002] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.431] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.931] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:34.431] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:34.930] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[10Jun2025 11:51:35.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[10Jun2025 11:51:35.929] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[10Jun2025 11:51:36.429] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[10Jun2025 11:51:36.663] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6734 ms
+[10Jun2025 11:51:36.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.720s)! For help, type "help"
+[10Jun2025 11:51:36.730] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Jun2025 11:51:36.740] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load
+[10Jun2025 11:51:36.744] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load: onlyunityy|187|VILLAGERS
+[10Jun2025 11:51:36.745] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load: vacallo|152|PIGLINS
+[10Jun2025 11:51:36.748] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: HeroUnitSaveData.load
+[10Jun2025 11:51:36.749] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Loaded 0 hero units in serverevents
+[10Jun2025 11:51:36.752] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: TargetResourcesSaveData.load
+[10Jun2025 11:51:36.754] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Loaded 16 gatherTargets in serverevents
+[10Jun2025 11:51:36.761] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:central_portal
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:town_centre
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:netherwart_farm
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:watchtower
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:hoglin_stables
+[10Jun2025 11:51:36.768] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:oak_stockpile
+[10Jun2025 11:51:36.769] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:barracks
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.773] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:arcane_tower
+[10Jun2025 11:51:36.774] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:flame_sanctuary
+[10Jun2025 11:51:36.774] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:basalt_springs
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:oak_bridge
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:netherwart_farm
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:blacksmith
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:wither_shrine
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.779] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:central_portal
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:fortress
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:castle
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:beacon
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:library
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:watchtower
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.784] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.785] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.785] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.789] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.841] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load
+[10Jun2025 11:51:36.847] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-22, y=64, z=-133}|30.00000035762787/30.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-6, y=75, z=-102}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-71, y=62, z=-149}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-50, y=62, z=-145}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-54, y=62, z=-120}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-135, y=63, z=-128}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-108, y=64, z=-111}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-101, y=63, z=-134}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.850] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-127, y=64, z=-135}|30.00000035762787/30.0|false
+[10Jun2025 11:51:36.850] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-81, y=65, z=-120}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.853] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-207, y=63, z=-238}|3.0/20.0|false
+[10Jun2025 11:51:36.892] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.save: BlockPos{x=-22, y=64, z=-133}|30/30|false
+[10Jun2025 11:51:36.893] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded netherzone for: reignofnether:central_portal|BlockPos{x=-26, y=62, z=-128}
+[10Jun2025 11:51:36.894] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:central_portal|BlockPos{x=-26, y=62, z=-128}
+[10Jun2025 11:51:36.901] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:town_centre|BlockPos{x=-259, y=63, z=-170}
+[10Jun2025 11:51:36.907] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-8, y=74, z=-99}
+[10Jun2025 11:51:36.908] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-264, y=63, z=-179}
+[10Jun2025 11:51:36.909] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:netherwart_farm|BlockPos{x=-5, y=71, z=-120}
+[10Jun2025 11:51:36.912] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-19, y=62, z=-120}
+[10Jun2025 11:51:36.915] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:watchtower|BlockPos{x=-230, y=62, z=-170}
+[10Jun2025 11:51:36.917] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-75, y=61, z=-151}
+[10Jun2025 11:51:36.919] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:hoglin_stables|BlockPos{x=-23, y=62, z=-110}
+[10Jun2025 11:51:37.127] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:oak_stockpile|BlockPos{x=-247, y=63, z=-157}
+[10Jun2025 11:51:37.129] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-52, y=61, z=-142}
+[10Jun2025 11:51:37.132] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-11, y=62, z=-135}
+[10Jun2025 11:51:37.134] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:barracks|BlockPos{x=-241, y=62, z=-120}
+[10Jun2025 11:51:37.135] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-248, y=63, z=-164}
+[10Jun2025 11:51:37.137] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-253, y=63, z=-176}
+[10Jun2025 11:51:37.140] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:arcane_tower|BlockPos{x=-222, y=62, z=-159}
+[10Jun2025 11:51:37.142] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:flame_sanctuary|BlockPos{x=-41, y=62, z=-117}
+[10Jun2025 11:51:37.144] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-150, y=61, z=-116}
+[10Jun2025 11:51:37.147] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-56, y=61, z=-117}
+[10Jun2025 11:51:37.148] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-164, y=61, z=-116}
+[10Jun2025 11:51:37.151] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:basalt_springs|BlockPos{x=-24, y=62, z=-142}
+[10Jun2025 11:51:37.158] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:oak_bridge|BlockPos{x=-258, y=61, z=-230}
+[10Jun2025 11:51:37.160] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-137, y=62, z=-125}
+[10Jun2025 11:51:37.161] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:netherwart_farm|BlockPos{x=-56, y=62, z=-115}
+[10Jun2025 11:51:37.162] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blacksmith|BlockPos{x=-265, y=63, z=-187}
+[10Jun2025 11:51:37.165] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wither_shrine|BlockPos{x=-71, y=64, z=-130}
+[10Jun2025 11:51:37.167] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-105, y=62, z=-136}
+[10Jun2025 11:51:37.171] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-112, y=63, z=-113}
+[10Jun2025 11:51:37.176] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:central_portal|BlockPos{x=-132, y=62, z=-139}
+[10Jun2025 11:51:37.182] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:fortress|BlockPos{x=-111, y=63, z=-129}
+[10Jun2025 11:51:37.196] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:castle|BlockPos{x=-265, y=62, z=-209}
+[10Jun2025 11:51:37.197] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-85, y=64, z=-122}
+[10Jun2025 11:51:37.198] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-269, y=63, z=-195}
+[10Jun2025 11:51:37.199] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-254, y=62, z=-216}
+[10Jun2025 11:51:37.205] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:beacon|BlockPos{x=-48, y=61, z=-138}
+[10Jun2025 11:51:37.209] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:library|BlockPos{x=-238, y=63, z=-175}
+[10Jun2025 11:51:37.210] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-237, y=63, z=-149}
+[10Jun2025 11:51:37.211] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-237, y=63, z=-166}
+[10Jun2025 11:51:37.212] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:watchtower|BlockPos{x=-217, y=62, z=-117}
+[10Jun2025 11:51:37.213] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-228, y=62, z=-117}
+[10Jun2025 11:51:37.214] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-220, y=62, z=-138}
+[10Jun2025 11:51:37.215] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-222, y=63, z=-150}
+[10Jun2025 11:51:37.216] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-232, y=63, z=-157}
+[10Jun2025 11:51:37.217] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-244, y=63, z=-176}
+[10Jun2025 11:51:37.217] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-239, y=63, z=-159}
+[10Jun2025 11:51:37.218] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-244, y=62, z=-144}
+[10Jun2025 11:51:37.219] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-251, y=62, z=-142}
+[10Jun2025 11:51:37.222] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-153, y=62, z=-150}
+[10Jun2025 11:51:37.224] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-178, y=61, z=-116}
+[10Jun2025 11:51:37.225] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-250, y=63, z=-153}
+[10Jun2025 11:51:37.226] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-272, y=63, z=-146}
+[10Jun2025 11:51:37.227] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-192, y=61, z=-116}
+[10Jun2025 11:51:37.229] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-190, y=61, z=-116}
+[10Jun2025 11:51:37.231] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-211, y=62, z=-240}
+[10Jun2025 11:51:37.232] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-219, y=62, z=-130}
+[10Jun2025 11:51:37.234] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-227, y=62, z=-128}
+[10Jun2025 11:51:37.239] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-226, y=63, z=-142}
+[10Jun2025 11:51:37.240] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-236, y=63, z=-140}
+[10Jun2025 11:51:37.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-243, y=62, z=-134}
+[10Jun2025 11:51:37.248] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load
+[10Jun2025 11:51:37.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load: onlyunityy|3058|500|320
+[10Jun2025 11:51:37.251] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load: vacallo|3325|5218|595
+[10Jun2025 11:51:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load
+[10Jun2025 11:51:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:resource_capacity
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:golem_smithing
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:advanced_portals
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:wither_clouds
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:fire_resistance
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:soul_fireballs
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:cube_magma
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:bloodlust
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:blaze_firewall
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:resource_capacity
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:ravager_cavalry
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:hoglin_cavalry
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:brute_shields
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:evoker_vexes
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:heavy_tridents
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:healing_potions
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:water_potions
+[10Jun2025 11:51:37.262] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded 17 researchItems in serverevents
+[10Jun2025 11:51:37.264] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: isEnabled: false
+[10Jun2025 11:51:37.264] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: nextWave: 1
+[10Jun2025 11:51:37.265] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: difficulty: null
+[10Jun2025 11:51:37.266] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded 0 start positions in serverevents
+[10Jun2025 11:51:37.374] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-8, y=65, z=-61}
+[10Jun2025 11:51:37.377] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.378] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.378] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.389] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-56, y=63, z=-163}
+[10Jun2025 11:51:37.390] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-119, y=66, z=-178}
+[10Jun2025 11:51:37.391] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-122, y=66, z=-169}
+[10Jun2025 11:51:37.724] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-238, y=65, z=-155}
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-233, y=65, z=-144}
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:39.405] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:39.406] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:41.649] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-221, y=66, z=-126}
+[10Jun2025 11:51:41.744] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:41.745] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:53.895] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@206c4a82[id=<null>,name=vacallo,properties={},legacy=false] (/127.52.35.122:43147) lost connection: Disconnected
+[10Jun2025 11:51:57.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vacallo[/127.52.35.122:40625] logged in with entity id 233 at (-221.28611350152642, 79.0, -207.4200807754808)
+[10Jun2025 11:51:57.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vacallo joined the game
+[10Jun2025 11:51:57.380] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Player logged in: vacallo, id: 233
+[10Jun2025 11:52:08.510] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3101|514|320
+[10Jun2025 11:52:08.511] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5237|595
+[10Jun2025 11:52:12.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! 6.37481963634491,0.0,7.835452079772949
+[10Jun2025 11:52:13.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! 7.984757423400879,0.0,15.686349868774414
+[10Jun2025 11:52:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|533|320
+[10Jun2025 11:52:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5332|645
+[10Jun2025 11:53:07.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|571|320
+[10Jun2025 11:53:07.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5402|645
+[10Jun2025 11:53:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|606|320
+[10Jun2025 11:53:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5458|645
+[10Jun2025 11:53:42.848] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: onlyunityy[/127.246.65.139:48153] logged in with entity id 527 at (-246.37130990293656, 93.0, -251.98429079114868)
+[10Jun2025 11:53:42.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onlyunityy joined the game
+[10Jun2025 11:53:42.899] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Player logged in: onlyunityy, id: 527
+[10Jun2025 11:53:43.837] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/558, l='ServerLevel[world]', x=-406.43, y=68.00, z=-337.45]
+[10Jun2025 11:53:43.837] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/559, l='ServerLevel[world]', x=-95.41, y=67.00, z=-350.45]
+[10Jun2025 11:53:44.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! 0.0,-11.0,0.0
+[10Jun2025 11:54:07.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|608|320
+[10Jun2025 11:54:07.251] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|4005|5520|645
+[10Jun2025 11:54:37.247] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2937|231|220
+[10Jun2025 11:54:37.247] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3835|5556|645
+[10Jun2025 11:54:50.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -9.492422103881836,0.0,3.1971085369586945
+[10Jun2025 11:54:51.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -14.924418449401855,0.0,3.119468867778778
+[10Jun2025 11:55:07.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2767|250|220
+[10Jun2025 11:55:07.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3665|5627|645
+[10Jun2025 11:55:37.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2767|280|220
+[10Jun2025 11:55:37.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3665|5764|645
+[10Jun2025 11:56:07.241] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2597|230|180
+[10Jun2025 11:56:07.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3495|5855|645
+[10Jun2025 11:56:37.371] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|153|60
+[10Jun2025 11:56:37.372] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5857|645
+[10Jun2025 11:56:44.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! -15.222808182239532,0.0,-5.101231813430786
+[10Jun2025 11:57:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2677|67|60
+[10Jun2025 11:57:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3300|5861|645
+[10Jun2025 11:57:13.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! 10.511616110801697,0.0,6.266682952642441
+[10Jun2025 11:57:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2577|108|60
+[10Jun2025 11:57:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3200|5949|645
+[10Jun2025 11:57:43.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -8.982042908668518,0.0,-4.694730877876282
+[10Jun2025 11:58:04.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! -5.6390418112277985,0.0,-9.83031165599823
+[10Jun2025 11:58:07.246] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2477|129|60
+[10Jun2025 11:58:07.246] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3100|6022|645
+[10Jun2025 11:58:34.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -11.495712757110596,0.0,0.8298501968383789
+[10Jun2025 11:58:37.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|155|60
+[10Jun2025 11:58:37.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5780|495
+[10Jun2025 11:59:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|177|60
+[10Jun2025 11:59:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5823|495
+[10Jun2025 11:59:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|192|60
+[10Jun2025 11:59:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5954|495
+[10Jun2025 12:00:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|227|60
+[10Jun2025 12:00:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5895|495
+[10Jun2025 12:00:25.586] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [136 absolute-0 below top]
+[10Jun2025 12:00:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|252|60
+[10Jun2025 12:00:37.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5948|495

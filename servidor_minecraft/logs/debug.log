@@ -1,0 +1,1066 @@
+[10Jun2025 11:51:00.398] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[10Jun2025 11:51:00.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[10Jun2025 11:51:00.429] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[10Jun2025 11:51:00.441] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[10Jun2025 11:51:00.456] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[10Jun2025 11:51:00.467] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[10Jun2025 11:51:00.472] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/server1/servidor_minecraft
+[10Jun2025 11:51:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/server1/servidor_minecraft/mods
+[10Jun2025 11:51:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/server1/servidor_minecraft/config
+[10Jun2025 11:51:00.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/server1/servidor_minecraft/config/fml.toml
+[10Jun2025 11:51:00.686] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[10Jun2025 11:51:00.694] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Jun2025 11:51:00.705] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[10Jun2025 11:51:00.707] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[10Jun2025 11:51:00.707] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[10Jun2025 11:51:00.708] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[10Jun2025 11:51:00.708] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[10Jun2025 11:51:00.709] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[10Jun2025 11:51:00.709] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[10Jun2025 11:51:00.710] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[10Jun2025 11:51:00.710] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Requesting CoreMods to not apply the fix for ASMAPI.findFirstInstructionBefore by default
+[10Jun2025 11:51:00.711] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[10Jun2025 11:51:00.711] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[10Jun2025 11:51:00.711] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[10Jun2025 11:51:00.714] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/]: CoreMods will preserve legacy behavior of ASMAPI.findFirstInstructionBefore for backwards-compatibility
+[10Jun2025 11:51:00.714] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.4
+[10Jun2025 11:51:00.714] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[10Jun2025 11:51:00.715] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[10Jun2025 11:51:00.715] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[10Jun2025 11:51:00.716] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[10Jun2025 11:51:00.725] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[10Jun2025 11:51:00.726] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[10Jun2025 11:51:00.746] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1e7c7811
+[10Jun2025 11:51:00.895] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server1/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Jun2025 11:51:00.900] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[10Jun2025 11:51:00.900] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Jun2025 11:51:00.901] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Jun2025 11:51:00.901] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Jun2025 11:51:00.901] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Jun2025 11:51:00.902] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[10Jun2025 11:51:00.905] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[10Jun2025 11:51:00.905] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[10Jun2025 11:51:00.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[10Jun2025 11:51:00.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/server1/servidor_minecraft
+[10Jun2025 11:51:00.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/server1/servidor_minecraft/mods
+[10Jun2025 11:51:00.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/server1/servidor_minecraft/config
+[10Jun2025 11:51:00.906] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/server1/servidor_minecraft/config/fml.toml
+[10Jun2025 11:51:00.907] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[10Jun2025 11:51:00.909] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[10Jun2025 11:51:00.914] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[10Jun2025 11:51:00.914] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[10Jun2025 11:51:00.931] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.4.0, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[10Jun2025 11:51:00.933] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[10Jun2025 11:51:00.935] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[10Jun2025 11:51:00.936] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[10Jun2025 11:51:00.936] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[10Jun2025 11:51:00.937] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[10Jun2025 11:51:00.937] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[10Jun2025 11:51:00.937] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[10Jun2025 11:51:00.937] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[10Jun2025 11:51:00.948] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[10Jun2025 11:51:00.954] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[10Jun2025 11:51:00.955] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[10Jun2025 11:51:00.964] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/mods/reignofnether-1.1.7b.jar
+[10Jun2025 11:51:01.016] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file reignofnether-1.1.7b.jar with {reignofnether} mods - versions {1.1.7b}
+[10Jun2025 11:51:01.382] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[10Jun2025 11:51:01.386] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar
+[10Jun2025 11:51:01.386] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.388] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar
+[10Jun2025 11:51:01.389] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.390] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar
+[10Jun2025 11:51:01.390] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.392] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar
+[10Jun2025 11:51:01.392] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[10Jun2025 11:51:01.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar
+[10Jun2025 11:51:01.549] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.0-universal.jar with {forge} mods - versions {47.4.0}
+[10Jun2025 11:51:01.561] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from reignofnether-1.1.7b.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.20.1-47.4.0-universal.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.20.1-47.4.0.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.563] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[10Jun2025 11:51:01.595] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[10Jun2025 11:51:01.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[10Jun2025 11:51:01.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[10Jun2025 11:51:01.601] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/mods/reignofnether-1.1.7b.jar
+[10Jun2025 11:51:01.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file reignofnether-1.1.7b.jar with {reignofnether} mods - versions {1.1.7b}
+[10Jun2025 11:51:01.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/server1/servidor_minecraft/mods/reignofnether-1.1.7b.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[10Jun2025 11:51:01.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar
+[10Jun2025 11:51:01.604] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.0-universal.jar with {forge} mods - versions {47.4.0}
+[10Jun2025 11:51:01.604] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[10Jun2025 11:51:01.751] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[10Jun2025 11:51:01.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[10Jun2025 11:51:01.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[10Jun2025 11:51:01.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[10Jun2025 11:51:01.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[10Jun2025 11:51:01.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[10Jun2025 11:51:01.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[10Jun2025 11:51:01.753] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[10Jun2025 11:51:01.755] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[10Jun2025 11:51:01.764] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[10Jun2025 11:51:01.765] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[10Jun2025 11:51:01.765] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[10Jun2025 11:51:01.765] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[10Jun2025 11:51:01.770] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[10Jun2025 11:51:01.770] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[10Jun2025 11:51:01.770] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[10Jun2025 11:51:01.772] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 2 mod requirements (2 mandatory, 0 optional)
+[10Jun2025 11:51:01.772] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[10Jun2025 11:51:02.495] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[10Jun2025 11:51:02.495] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[10Jun2025 11:51:02.496] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[10Jun2025 11:51:02.496] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[10Jun2025 11:51:02.497] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[10Jun2025 11:51:02.497] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[10Jun2025 11:51:02.926] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10Jun2025 11:51:02.926] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[10Jun2025 11:51:03.021] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10Jun2025 11:51:03.021] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[10Jun2025 11:51:03.059] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10Jun2025 11:51:03.059] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[10Jun2025 11:51:03.138] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[10Jun2025 11:51:03.148] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@59bbe88a to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[10Jun2025 11:51:03.149] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@cda6019 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[10Jun2025 11:51:03.149] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@797c3c3b to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[10Jun2025 11:51:03.149] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4012d5bc to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[10Jun2025 11:51:03.149] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4375b013 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[10Jun2025 11:51:03.149] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1cf0cacc to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4f5b08d to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@529c2a9a to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3c87fdf2 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[10Jun2025 11:51:03.150] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[10Jun2025 11:51:03.151] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[10Jun2025 11:51:03.152] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[10Jun2025 11:51:03.153] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[10Jun2025 11:51:03.153] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[10Jun2025 11:51:03.153] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[10Jun2025 11:51:03.153] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26bbe604 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[10Jun2025 11:51:03.153] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[10Jun2025 11:51:03.923] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10Jun2025 11:51:03.923] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10Jun2025 11:51:03.924] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[10Jun2025 11:51:03.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[10Jun2025 11:51:03.924] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[10Jun2025 11:51:03.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[10Jun2025 11:51:03.924] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[10Jun2025 11:51:03.925] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[10Jun2025 11:51:03.925] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(reignofnether)
+[10Jun2025 11:51:03.925] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(reignofnether)
+[10Jun2025 11:51:03.925] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(reignofnether)
+[10Jun2025 11:51:03.925] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(reignofnether)
+[10Jun2025 11:51:03.926] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(reignofnether)
+[10Jun2025 11:51:03.926] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(reignofnether)]
+[10Jun2025 11:51:03.926] [main/DEBUG] [mixin/]: Registering mixin config: reignofnether.mixins.json
+[10Jun2025 11:51:03.945] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by reignofnether.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[10Jun2025 11:51:03.951] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Jun2025 11:51:03.952] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[10Jun2025 11:51:03.952] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[10Jun2025 11:51:03.953] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[10Jun2025 11:51:03.953] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[10Jun2025 11:51:03.953] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[10Jun2025 11:51:03.953] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[10Jun2025 11:51:03.954] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[10Jun2025 11:51:03.954] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[10Jun2025 11:51:03.954] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[10Jun2025 11:51:03.955] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(reignofnether)]
+[10Jun2025 11:51:03.955] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[10Jun2025 11:51:03.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[10Jun2025 11:51:03.998] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[10Jun2025 11:51:04.000] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[10Jun2025 11:51:04.001] [main/DEBUG] [mixin/]: Selecting config reignofnether.mixins.json
+[10Jun2025 11:51:04.009] [main/DEBUG] [mixin/]: Preparing reignofnether.mixins.json (50)
+[10Jun2025 11:51:05.012] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[10Jun2025 11:51:05.015] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[10Jun2025 11:51:05.017] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[10Jun2025 11:51:05.019] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[10Jun2025 11:51:05.020] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[10Jun2025 11:51:05.022] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[10Jun2025 11:51:05.178] [main/DEBUG] [mixin/]: Prepared 24 mixins in 1.175 sec (49.0ms avg) (0ms load, 0ms transform, 0ms plugin)
+[10Jun2025 11:51:05.224] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[10Jun2025 11:51:05.227] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[10Jun2025 11:51:05.227] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[10Jun2025 11:51:05.799] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@25673087
+[10Jun2025 11:51:05.801] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[10Jun2025 11:51:05.857] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[10Jun2025 11:51:05.857] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[10Jun2025 11:51:05.862] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[10Jun2025 11:51:05.869] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[10Jun2025 11:51:05.870] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[10Jun2025 11:51:05.870] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[10Jun2025 11:51:05.870] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[10Jun2025 11:51:05.871] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[10Jun2025 11:51:05.875] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[10Jun2025 11:51:05.875] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[10Jun2025 11:51:05.875] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[10Jun2025 11:51:05.876] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[10Jun2025 11:51:05.876] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[10Jun2025 11:51:05.877] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[10Jun2025 11:51:05.877] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/core_id
+[10Jun2025 11:51:05.877] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[10Jun2025 11:51:05.877] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/topology/physical_package_id
+[10Jun2025 11:51:05.878] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu2/cpu_capacity
+[10Jun2025 11:51:05.878] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[10Jun2025 11:51:05.878] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/core_id
+[10Jun2025 11:51:05.878] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[10Jun2025 11:51:05.878] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/topology/physical_package_id
+[10Jun2025 11:51:05.879] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu3/cpu_capacity
+[10Jun2025 11:51:05.881] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[10Jun2025 11:51:05.892] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[10Jun2025 11:51:05.894] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@25673087
+[10Jun2025 11:51:05.894] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+[10Jun2025 11:51:05.912] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[10Jun2025 11:51:05.913] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[10Jun2025 11:51:06.290] [main/DEBUG] [mixin/]: Mixing EntityMixin from reignofnether.mixins.json into net.minecraft.world.entity.Entity
+[10Jun2025 11:51:06.313] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[10Jun2025 11:51:06.612] [main/DEBUG] [mixin/]: Mixing PlayerMixin from reignofnether.mixins.json into net.minecraft.world.entity.Entity
+[10Jun2025 11:51:07.014] [main/DEBUG] [mixin/]: Mixing LivingEntityMixin from reignofnether.mixins.json into net.minecraft.world.entity.LivingEntity
+[10Jun2025 11:51:07.090] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[10Jun2025 11:51:07.251] [main/DEBUG] [mixin/]: Mixing ServerLevelMixin from reignofnether.mixins.json into net.minecraft.server.level.ServerLevel
+[10Jun2025 11:51:07.385] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[10Jun2025 11:51:07.604] [main/DEBUG] [mixin/]: Mixing fire.FireBlockMixin from reignofnether.mixins.json into net.minecraft.world.level.block.FireBlock
+[10Jun2025 11:51:07.729] [main/DEBUG] [mixin/]: Mixing fire.BaseFireBlockMixin from reignofnether.mixins.json into net.minecraft.world.level.block.BaseFireBlock
+[10Jun2025 11:51:08.025] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[10Jun2025 11:51:08.033] [main/DEBUG] [mixin/]: Mixing LeavesBlockMixin from reignofnether.mixins.json into net.minecraft.world.level.block.LeavesBlock
+[10Jun2025 11:51:08.051] [main/DEBUG] [mixin/]: Mixing WebBlockMixin from reignofnether.mixins.json into net.minecraft.world.level.block.WebBlock
+[10Jun2025 11:51:08.085] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[10Jun2025 11:51:08.177] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[10Jun2025 11:51:08.220] [main/DEBUG] [mixin/]: Mixing fire.MagmaBlockMixin from reignofnether.mixins.json into net.minecraft.world.level.block.MagmaBlock
+[10Jun2025 11:51:09.238] [main/DEBUG] [mixin/]: Mixing AbstractArrowMixin from reignofnether.mixins.json into net.minecraft.world.entity.projectile.AbstractArrow
+[10Jun2025 11:51:09.402] [main/DEBUG] [mixin/]: Mixing MobMixin from reignofnether.mixins.json into net.minecraft.world.entity.Mob
+[10Jun2025 11:51:09.413] [main/DEBUG] [mixin/]: Mixing goals.MobMixin from reignofnether.mixins.json into net.minecraft.world.entity.Mob
+[10Jun2025 11:51:09.554] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[10Jun2025 11:51:09.599] [main/DEBUG] [mixin/]: Mixing BeaconBlockEntityMixin from reignofnether.mixins.json into net.minecraft.world.level.block.entity.BeaconBlockEntity
+[10Jun2025 11:51:10.670] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[10Jun2025 11:51:10.825] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[10Jun2025 11:51:11.851] [main/DEBUG] [mixin/]: Mixing BlazeMixin from reignofnether.mixins.json into net.minecraft.world.entity.monster.Blaze
+[10Jun2025 11:51:11.875] [main/DEBUG] [mixin/]: Mixing goals.RandomStrollGoalMixin from reignofnether.mixins.json into net.minecraft.world.entity.ai.goal.RandomStrollGoal
+[10Jun2025 11:51:11.907] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[10Jun2025 11:51:11.969] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[10Jun2025 11:51:12.045] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[10Jun2025 11:51:12.129] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[10Jun2025 11:51:12.143] [main/DEBUG] [mixin/]: Mixing EvokerFangsMixin from reignofnether.mixins.json into net.minecraft.world.entity.projectile.EvokerFangs
+[10Jun2025 11:51:12.290] [main/DEBUG] [mixin/]: Mixing ThrownPotionMixin from reignofnether.mixins.json into net.minecraft.world.entity.projectile.ThrownPotion
+[10Jun2025 11:51:12.300] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[10Jun2025 11:51:12.309] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[10Jun2025 11:51:12.326] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[10Jun2025 11:51:12.355] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[10Jun2025 11:51:12.375] [main/DEBUG] [mixin/]: Mixing BaseSpawnerMixin from reignofnether.mixins.json into net.minecraft.world.level.BaseSpawner
+[10Jun2025 11:51:12.378] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$serverTick$4(Lcom/solegendary/reignofnether/unit/interfaces/Unit;)Z to md28bd03$lambda$serverTick$4$0 in reignofnether.mixins.json:BaseSpawnerMixin
+[10Jun2025 11:51:12.379] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$serverTick$3(Lnet/minecraft/world/entity/Entity;Lcom/solegendary/reignofnether/unit/interfaces/Unit;)Z to md28bd03$lambda$serverTick$3$1 in reignofnether.mixins.json:BaseSpawnerMixin
+[10Jun2025 11:51:12.379] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$serverTick$2(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity; to md28bd03$lambda$serverTick$2$2 in reignofnether.mixins.json:BaseSpawnerMixin
+[10Jun2025 11:51:12.379] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$serverTick$1(Lnet/minecraft/world/entity/Mob;)Lcom/solegendary/reignofnether/unit/interfaces/Unit; to md28bd03$lambda$serverTick$1$3 in reignofnether.mixins.json:BaseSpawnerMixin
+[10Jun2025 11:51:12.379] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$serverTick$0(Lnet/minecraft/world/entity/Mob;)Z to md28bd03$lambda$serverTick$0$4 in reignofnether.mixins.json:BaseSpawnerMixin
+[10Jun2025 11:51:12.414] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[10Jun2025 11:51:12.563] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[10Jun2025 11:51:12.666] [main/DEBUG] [mixin/]: Mixing WitchMixin from reignofnether.mixins.json into net.minecraft.world.entity.monster.Witch
+[10Jun2025 11:51:12.666] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$aiStep$0(Ljava/lang/Object;)Z to md28bd03$lambda$aiStep$0$0 in reignofnether.mixins.json:WitchMixin
+[10Jun2025 11:51:12.718] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[10Jun2025 11:51:13.307] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[10Jun2025 11:51:13.356] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[10Jun2025 11:51:13.379] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[10Jun2025 11:51:13.399] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[10Jun2025 11:51:13.429] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[10Jun2025 11:51:13.693] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[10Jun2025 11:51:14.125] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[10Jun2025 11:51:14.126] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[10Jun2025 11:51:14.126] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[10Jun2025 11:51:14.127] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[10Jun2025 11:51:14.127] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[10Jun2025 11:51:14.127] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[10Jun2025 11:51:14.128] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.0-universal.jar%23108!/:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.0-universal.jar%23108!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[10Jun2025 11:51:14.129] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[10Jun2025 11:51:14.130] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar%2382!/:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.0-universal.jar%23108!/:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.0-universal.jar%23108!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[server-1.20.1-20230612.114412-srg.jar%23103!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[10Jun2025 11:51:14.131] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[10Jun2025 11:51:14.131] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[10Jun2025 11:51:14.132] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 12884901888 bytes (maybe)
+[10Jun2025 11:51:14.132] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[10Jun2025 11:51:14.132] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[10Jun2025 11:51:14.133] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[10Jun2025 11:51:14.133] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[10Jun2025 11:51:14.134] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[10Jun2025 11:51:14.134] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[10Jun2025 11:51:14.218] [main/DEBUG] [net.minecraftforge.network.NetworkHooks/]: Loading Network data for FML net version: FML3
+[10Jun2025 11:51:14.298] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6434
+[10Jun2025 11:51:14.320] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 4 threads for parallel mod-loading
+[10Jun2025 11:51:14.328] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@25673087 - got cpw.mods.cl.ModuleClassLoader@3af37506
+[10Jun2025 11:51:14.330] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for com.solegendary.reignofnether.ReignOfNether
+[10Jun2025 11:51:14.335] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@25673087 - got cpw.mods.cl.ModuleClassLoader@3af37506
+[10Jun2025 11:51:14.335] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[10Jun2025 11:51:14.367] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinNetworkManager from reignofnether.mixins.json into net.minecraft.network.Connection
+[10Jun2025 11:51:14.428] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@25673087
+[10Jun2025 11:51:14.428] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.0
+[10Jun2025 11:51:14.428] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
+[10Jun2025 11:51:14.428] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[10Jun2025 11:51:14.430] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@25673087
+[10Jun2025 11:51:14.432] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[10Jun2025 11:51:14.432] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[10Jun2025 11:51:14.433] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[10Jun2025 11:51:14.437] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[10Jun2025 11:51:14.515] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[10Jun2025 11:51:14.516] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[10Jun2025 11:51:14.516] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[10Jun2025 11:51:14.567] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[10Jun2025 11:51:14.573] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[10Jun2025 11:51:14.749] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file reignofnether-common-1.1.7b.toml for reignofnether tracking
+[10Jun2025 11:51:14.749] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for reignofnether
+[10Jun2025 11:51:14.750] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.solegendary.reignofnether.CommonModEvents to MOD
+[10Jun2025 11:51:14.821] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[10Jun2025 11:51:14.822] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[10Jun2025 11:51:14.823] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[10Jun2025 11:51:14.823] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[10Jun2025 11:51:15.085] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.npc.Villager from class com.solegendary.reignofnether.unit.units.villagers.MilitiaUnit
+[10Jun2025 11:51:15.087] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.solegendary.reignofnether.unit.units.monsters.ZombieUnit from class com.solegendary.reignofnether.unit.units.neutral.EndermanUnit
+[10Jun2025 11:51:15.110] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[10Jun2025 11:51:15.111] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /workspaces/server1/servidor_minecraft/config/reignofnether-common-1.1.7b.toml
+[10Jun2025 11:51:15.118] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /workspaces/server1/servidor_minecraft/config/reignofnether-common-1.1.7b.toml
+[10Jun2025 11:51:15.126] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /workspaces/server1/servidor_minecraft/config/reignofnether-common-1.1.7b.toml for changes
+[10Jun2025 11:51:15.135] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file reignofnether-common-1.1.7b.toml changed, sending notifies
+[10Jun2025 11:51:15.140] [modloading-worker-0/INFO] [com.solegendary.reignofnether.ReignOfNether/RESETPACKET]: Registering forge reset packet.
+[10Jun2025 11:51:15.150] [modloading-worker-0/INFO] [com.solegendary.reignofnether.ReignOfNether/RESETPACKET]: Registered forge reset packet successfully.
+[10Jun2025 11:51:15.163] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 1 jobs
+[10Jun2025 11:51:15.308] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 143.8 ms
+[10Jun2025 11:51:15.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Jun2025 11:51:16.341] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.10",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.0",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.0",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.0",
+    "1.20.1-latest": "47.4.1",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.0",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.0",
+    "1.20.6-recommended": "50.2.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.1",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.1",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.3",
+    "1.21.4-recommended": "54.1.0",
+    "1.21.5-latest": "55.0.23"
+  }
+}
+[10Jun2025 11:51:16.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[10Jun2025 11:51:17.092] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Jun2025 11:51:18.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[10Jun2025 11:51:18.128] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server1/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[10Jun2025 11:51:18.236] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:reignofnether for mod file /workspaces/server1/servidor_minecraft/mods/reignofnether-1.1.7b.jar
+[10Jun2025 11:51:18.237] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/server1/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar
+[10Jun2025 11:51:20.335] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[10Jun2025 11:51:21.034] [Worker-Main-3/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[10Jun2025 11:51:21.441] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[10Jun2025 11:51:21.623] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[10Jun2025 11:51:22.481] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jun2025 11:51:22.505] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jun2025 11:51:22.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[10Jun2025 11:51:22.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Jun2025 11:51:22.778] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Jun2025 11:51:22.779] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[10Jun2025 11:51:22.786] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[10Jun2025 11:51:22.786] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[10Jun2025 11:51:22.786] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[10Jun2025 11:51:22.786] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[10Jun2025 11:51:22.796] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_644642714020105686328.so
+[10Jun2025 11:51:22.800] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[10Jun2025 11:51:22.800] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[10Jun2025 11:51:22.802] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[10Jun2025 11:51:22.804] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[10Jun2025 11:51:22.810] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Jun2025 11:51:22.825] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 8
+[10Jun2025 11:51:22.838] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[10Jun2025 11:51:22.838] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[10Jun2025 11:51:22.851] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[10Jun2025 11:51:22.863] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 3729 (auto-detected)
+[10Jun2025 11:51:22.866] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:0d:3a:ff:fe:46:ec:07 (auto-detected)
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 8
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 8
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[10Jun2025 11:51:22.899] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[10Jun2025 11:51:22.900] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[10Jun2025 11:51:22.900] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[10Jun2025 11:51:22.900] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[10Jun2025 11:51:22.900] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[10Jun2025 11:51:22.900] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[10Jun2025 11:51:22.910] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[10Jun2025 11:51:22.910] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[10Jun2025 11:51:22.911] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[10Jun2025 11:51:22.921] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Jun2025 11:51:22.922] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Jun2025 11:51:22.943] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[10Jun2025 11:51:22.943] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[10Jun2025 11:51:22.944] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[10Jun2025 11:51:22.945] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[10Jun2025 11:51:22.945] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[10Jun2025 11:51:22.947] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[10Jun2025 11:51:22.948] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[10Jun2025 11:51:22.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[10Jun2025 11:51:22.984] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[10Jun2025 11:51:22.994] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[10Jun2025 11:51:23.004] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[10Jun2025 11:51:23.012] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[10Jun2025 11:51:24.675] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[10Jun2025 11:51:24.675] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[10Jun2025 11:51:24.676] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[10Jun2025 11:51:24.676] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[10Jun2025 11:51:24.689] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[10Jun2025 11:51:24.689] [Netty Epoll Server IO #1/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[10Jun2025 11:51:24.690] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2c94e423
+[10Jun2025 11:51:24.722] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[10Jun2025 11:51:29.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Jun2025 11:51:31.535] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[10Jun2025 11:51:32.825] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.911] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.937] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.970] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:32.979] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.002] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.431] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:33.931] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:34.431] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Jun2025 11:51:34.930] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[10Jun2025 11:51:35.138] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[10Jun2025 11:51:35.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[10Jun2025 11:51:35.760] [Server thread/DEBUG] [mixin/]: Mixing fire.WalkNodeEvaluatorMixin from reignofnether.mixins.json into net.minecraft.world.level.pathfinder.WalkNodeEvaluator
+[10Jun2025 11:51:35.929] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[10Jun2025 11:51:36.429] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[10Jun2025 11:51:36.663] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6734 ms
+[10Jun2025 11:51:36.663] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.720s)! For help, type "help"
+[10Jun2025 11:51:36.672] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[10Jun2025 11:51:36.726] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 1377
+[10Jun2025 11:51:36.730] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Jun2025 11:51:36.740] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load
+[10Jun2025 11:51:36.744] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load: onlyunityy|187|VILLAGERS
+[10Jun2025 11:51:36.745] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: RTSPlayerSaveData.load: vacallo|152|PIGLINS
+[10Jun2025 11:51:36.748] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: HeroUnitSaveData.load
+[10Jun2025 11:51:36.749] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Loaded 0 hero units in serverevents
+[10Jun2025 11:51:36.752] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: TargetResourcesSaveData.load
+[10Jun2025 11:51:36.754] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Loaded 16 gatherTargets in serverevents
+[10Jun2025 11:51:36.761] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:central_portal
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:town_centre
+[10Jun2025 11:51:36.765] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:netherwart_farm
+[10Jun2025 11:51:36.766] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:watchtower
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.767] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:hoglin_stables
+[10Jun2025 11:51:36.768] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:oak_stockpile
+[10Jun2025 11:51:36.769] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:barracks
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.772] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.773] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:arcane_tower
+[10Jun2025 11:51:36.774] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:flame_sanctuary
+[10Jun2025 11:51:36.774] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:basalt_springs
+[10Jun2025 11:51:36.775] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:oak_bridge
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_civilian
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:netherwart_farm
+[10Jun2025 11:51:36.776] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:blacksmith
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:wither_shrine
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_military
+[10Jun2025 11:51:36.777] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.779] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:central_portal
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:fortress
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:castle
+[10Jun2025 11:51:36.780] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.781] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:beacon
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:library
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.782] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:watchtower
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.783] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.784] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.785] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.785] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:wheat_farm
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:bastion
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.786] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: |reignofnether:blackstone_bridge
+[10Jun2025 11:51:36.787] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: vacallo|reignofnether:portal_transport
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.788] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.789] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: BuildingSaveData.load: onlyunityy|reignofnether:villager_house
+[10Jun2025 11:51:36.841] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load
+[10Jun2025 11:51:36.847] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-22, y=64, z=-133}|30.00000035762787/30.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-6, y=75, z=-102}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-71, y=62, z=-149}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-50, y=62, z=-145}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.848] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-54, y=62, z=-120}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-135, y=63, z=-128}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-108, y=64, z=-111}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.849] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-101, y=63, z=-134}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.850] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-127, y=64, z=-135}|30.00000035762787/30.0|false
+[10Jun2025 11:51:36.850] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-81, y=65, z=-120}|20.00000025331974/20.0|false
+[10Jun2025 11:51:36.853] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.load: BlockPos{x=-207, y=63, z=-238}|3.0/20.0|false
+[10Jun2025 11:51:36.892] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: NetherZoneSaveData.save: BlockPos{x=-22, y=64, z=-133}|30/30|false
+[10Jun2025 11:51:36.893] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded netherzone for: reignofnether:central_portal|BlockPos{x=-26, y=62, z=-128}
+[10Jun2025 11:51:36.894] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:central_portal|BlockPos{x=-26, y=62, z=-128}
+[10Jun2025 11:51:36.901] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:town_centre|BlockPos{x=-259, y=63, z=-170}
+[10Jun2025 11:51:36.907] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-8, y=74, z=-99}
+[10Jun2025 11:51:36.908] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-264, y=63, z=-179}
+[10Jun2025 11:51:36.909] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:netherwart_farm|BlockPos{x=-5, y=71, z=-120}
+[10Jun2025 11:51:36.912] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-19, y=62, z=-120}
+[10Jun2025 11:51:36.915] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:watchtower|BlockPos{x=-230, y=62, z=-170}
+[10Jun2025 11:51:36.917] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-75, y=61, z=-151}
+[10Jun2025 11:51:36.919] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:hoglin_stables|BlockPos{x=-23, y=62, z=-110}
+[10Jun2025 11:51:37.127] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:oak_stockpile|BlockPos{x=-247, y=63, z=-157}
+[10Jun2025 11:51:37.129] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-52, y=61, z=-142}
+[10Jun2025 11:51:37.132] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-11, y=62, z=-135}
+[10Jun2025 11:51:37.134] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:barracks|BlockPos{x=-241, y=62, z=-120}
+[10Jun2025 11:51:37.135] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-248, y=63, z=-164}
+[10Jun2025 11:51:37.137] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-253, y=63, z=-176}
+[10Jun2025 11:51:37.140] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:arcane_tower|BlockPos{x=-222, y=62, z=-159}
+[10Jun2025 11:51:37.142] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:flame_sanctuary|BlockPos{x=-41, y=62, z=-117}
+[10Jun2025 11:51:37.144] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-150, y=61, z=-116}
+[10Jun2025 11:51:37.147] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-56, y=61, z=-117}
+[10Jun2025 11:51:37.148] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-164, y=61, z=-116}
+[10Jun2025 11:51:37.151] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:basalt_springs|BlockPos{x=-24, y=62, z=-142}
+[10Jun2025 11:51:37.158] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:oak_bridge|BlockPos{x=-258, y=61, z=-230}
+[10Jun2025 11:51:37.160] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_civilian|BlockPos{x=-137, y=62, z=-125}
+[10Jun2025 11:51:37.161] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:netherwart_farm|BlockPos{x=-56, y=62, z=-115}
+[10Jun2025 11:51:37.162] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blacksmith|BlockPos{x=-265, y=63, z=-187}
+[10Jun2025 11:51:37.165] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wither_shrine|BlockPos{x=-71, y=64, z=-130}
+[10Jun2025 11:51:37.167] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_military|BlockPos{x=-105, y=62, z=-136}
+[10Jun2025 11:51:37.171] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-112, y=63, z=-113}
+[10Jun2025 11:51:37.176] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:central_portal|BlockPos{x=-132, y=62, z=-139}
+[10Jun2025 11:51:37.182] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:fortress|BlockPos{x=-111, y=63, z=-129}
+[10Jun2025 11:51:37.196] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:castle|BlockPos{x=-265, y=62, z=-209}
+[10Jun2025 11:51:37.197] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-85, y=64, z=-122}
+[10Jun2025 11:51:37.198] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-269, y=63, z=-195}
+[10Jun2025 11:51:37.199] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-254, y=62, z=-216}
+[10Jun2025 11:51:37.205] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:beacon|BlockPos{x=-48, y=61, z=-138}
+[10Jun2025 11:51:37.209] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:library|BlockPos{x=-238, y=63, z=-175}
+[10Jun2025 11:51:37.210] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-237, y=63, z=-149}
+[10Jun2025 11:51:37.211] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-237, y=63, z=-166}
+[10Jun2025 11:51:37.212] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:watchtower|BlockPos{x=-217, y=62, z=-117}
+[10Jun2025 11:51:37.213] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-228, y=62, z=-117}
+[10Jun2025 11:51:37.214] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-220, y=62, z=-138}
+[10Jun2025 11:51:37.215] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-222, y=63, z=-150}
+[10Jun2025 11:51:37.216] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-232, y=63, z=-157}
+[10Jun2025 11:51:37.217] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-244, y=63, z=-176}
+[10Jun2025 11:51:37.217] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:wheat_farm|BlockPos{x=-239, y=63, z=-159}
+[10Jun2025 11:51:37.218] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-244, y=62, z=-144}
+[10Jun2025 11:51:37.219] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-251, y=62, z=-142}
+[10Jun2025 11:51:37.222] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:bastion|BlockPos{x=-153, y=62, z=-150}
+[10Jun2025 11:51:37.224] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-178, y=61, z=-116}
+[10Jun2025 11:51:37.225] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-250, y=63, z=-153}
+[10Jun2025 11:51:37.226] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-272, y=63, z=-146}
+[10Jun2025 11:51:37.227] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-192, y=61, z=-116}
+[10Jun2025 11:51:37.229] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:blackstone_bridge|BlockPos{x=-190, y=61, z=-116}
+[10Jun2025 11:51:37.231] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:portal_transport|BlockPos{x=-211, y=62, z=-240}
+[10Jun2025 11:51:37.232] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-219, y=62, z=-130}
+[10Jun2025 11:51:37.234] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-227, y=62, z=-128}
+[10Jun2025 11:51:37.239] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-226, y=63, z=-142}
+[10Jun2025 11:51:37.240] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-236, y=63, z=-140}
+[10Jun2025 11:51:37.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded building in serverevents: reignofnether:villager_house|BlockPos{x=-243, y=62, z=-134}
+[10Jun2025 11:51:37.248] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load
+[10Jun2025 11:51:37.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load: onlyunityy|3058|500|320
+[10Jun2025 11:51:37.251] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.load: vacallo|3325|5218|595
+[10Jun2025 11:51:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load
+[10Jun2025 11:51:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:resource_capacity
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:golem_smithing
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:advanced_portals
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:wither_clouds
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:fire_resistance
+[10Jun2025 11:51:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:soul_fireballs
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:cube_magma
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:bloodlust
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:blaze_firewall
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:resource_capacity
+[10Jun2025 11:51:37.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:ravager_cavalry
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:hoglin_cavalry
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:brute_shields
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:evoker_vexes
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: vacallo|reignofnether:heavy_tridents
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:healing_potions
+[10Jun2025 11:51:37.256] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResearchSaveData.load: onlyunityy|reignofnether:water_potions
+[10Jun2025 11:51:37.262] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded 17 researchItems in serverevents
+[10Jun2025 11:51:37.264] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: isEnabled: false
+[10Jun2025 11:51:37.264] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: nextWave: 1
+[10Jun2025 11:51:37.265] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded survival data: difficulty: null
+[10Jun2025 11:51:37.266] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded 0 start positions in serverevents
+[10Jun2025 11:51:37.308] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[10Jun2025 11:51:37.374] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-8, y=65, z=-61}
+[10Jun2025 11:51:37.377] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.378] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.378] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.383] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xd557a23d73f30d28
+[10Jun2025 11:51:37.389] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-56, y=63, z=-163}
+[10Jun2025 11:51:37.390] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-119, y=66, z=-178}
+[10Jun2025 11:51:37.391] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-122, y=66, z=-169}
+[10Jun2025 11:51:37.724] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-238, y=65, z=-155}
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-233, y=65, z=-144}
+[10Jun2025 11:51:37.725] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:39.405] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:39.406] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:41.649] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: BlockPos{x=-221, y=66, z=-126}
+[10Jun2025 11:51:41.744] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:41.745] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: loaded gatherTarget in serverevents: null
+[10Jun2025 11:51:46.707] [Netty Epoll Server IO #4/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[10Jun2025 11:51:46.715] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[10Jun2025 11:51:46.747] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[10Jun2025 11:51:46.794] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[10Jun2025 11:51:46.843] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[10Jun2025 11:51:46.879] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[10Jun2025 11:51:46.914] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[10Jun2025 11:51:46.945] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[10Jun2025 11:51:46.979] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[10Jun2025 11:51:47.018] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[10Jun2025 11:51:47.065] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[10Jun2025 11:51:47.102] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[10Jun2025 11:51:47.139] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[10Jun2025 11:51:47.170] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[10Jun2025 11:51:47.198] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[10Jun2025 11:51:47.231] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[10Jun2025 11:51:47.268] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[10Jun2025 11:51:47.303] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[10Jun2025 11:51:47.372] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[10Jun2025 11:51:47.501] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[10Jun2025 11:51:47.536] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[10Jun2025 11:51:47.584] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[10Jun2025 11:51:47.629] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[10Jun2025 11:51:53.895] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@206c4a82[id=<null>,name=vacallo,properties={},legacy=false] (/127.52.35.122:43147) lost connection: Disconnected
+[10Jun2025 11:51:55.953] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[10Jun2025 11:51:55.989] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[10Jun2025 11:51:56.021] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[10Jun2025 11:51:56.049] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[10Jun2025 11:51:56.091] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[10Jun2025 11:51:56.093] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10Jun2025 11:51:56.097] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[10Jun2025 11:51:56.098] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, reignofnether, forge]
+[10Jun2025 11:51:56.099] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:51:56.100] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[10Jun2025 11:51:56.100] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:51:56.100] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:51:56.100] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:51:56.100] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:51:56.101] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[10Jun2025 11:51:56.101] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'reignofnether:main' : Version test of '1' from client : ACCEPTED
+[10Jun2025 11:51:56.101] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[10Jun2025 11:51:56.102] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[10Jun2025 11:51:56.108] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[10Jun2025 11:51:56.108] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.108] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.124] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[10Jun2025 11:51:56.150] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[10Jun2025 11:51:56.151] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[10Jun2025 11:51:56.151] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.151] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.177] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[10Jun2025 11:51:56.203] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[10Jun2025 11:51:56.240] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.252] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.253] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[10Jun2025 11:51:56.253] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.253] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.267] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[10Jun2025 11:51:56.268] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[10Jun2025 11:51:56.268] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.268] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.292] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[10Jun2025 11:51:56.306] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[10Jun2025 11:51:56.306] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.307] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.315] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[10Jun2025 11:51:56.337] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[10Jun2025 11:51:56.345] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[10Jun2025 11:51:56.345] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.345] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.346] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[10Jun2025 11:51:56.346] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.346] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.364] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[10Jun2025 11:51:56.383] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[10Jun2025 11:51:56.383] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.383] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.388] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[10Jun2025 11:51:56.388] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[10Jun2025 11:51:56.388] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.388] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.425] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[10Jun2025 11:51:56.460] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[10Jun2025 11:51:56.497] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[10Jun2025 11:51:56.525] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[10Jun2025 11:51:56.564] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[10Jun2025 11:51:56.569] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[10Jun2025 11:51:56.569] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.569] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.569] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[10Jun2025 11:51:56.569] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.570] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.570] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[10Jun2025 11:51:56.570] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.570] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.591] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[10Jun2025 11:51:56.592] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[10Jun2025 11:51:56.592] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.592] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.634] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[10Jun2025 11:51:56.635] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.635] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.636] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[10Jun2025 11:51:56.637] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.637] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.638] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[10Jun2025 11:51:56.638] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.638] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.643] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[10Jun2025 11:51:56.913] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[10Jun2025 11:51:56.916] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.916] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.916] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[10Jun2025 11:51:56.916] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:51:56.916] [Netty Epoll Server IO #6/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:51:56.953] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[10Jun2025 11:51:57.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: vacallo[/127.52.35.122:40625] logged in with entity id 233 at (-221.28611350152642, 79.0, -207.4200807754808)
+[10Jun2025 11:51:57.079] [Server thread/DEBUG] [mixin/]: Mixing MixinNetworkFilters from reignofnether.mixins.json into net.minecraftforge.network.filters.NetworkFilters
+[10Jun2025 11:51:57.079] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$injectIfNecessary$0(Lnet/minecraft/network/Connection;Ljava/lang/String;Ljava/util/function/Function;)V to md28bd03$lambda$injectIfNecessary$0$0 in reignofnether.mixins.json:MixinNetworkFilters
+[10Jun2025 11:51:57.087] [Server thread/DEBUG] [mixin/]: Mixing VanillaPacketFilterAccessor from reignofnether.mixins.json into net.minecraftforge.network.filters.VanillaPacketFilter
+[10Jun2025 11:51:57.111] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@887d2e2 into net.minecraft.network.Connection@5737adcb
+[10Jun2025 11:51:57.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: vacallo joined the game
+[10Jun2025 11:51:57.380] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Player logged in: vacallo, id: 233
+[10Jun2025 11:52:08.510] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3101|514|320
+[10Jun2025 11:52:08.511] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5237|595
+[10Jun2025 11:52:12.629] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! 6.37481963634491,0.0,7.835452079772949
+[10Jun2025 11:52:13.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! 7.984757423400879,0.0,15.686349868774414
+[10Jun2025 11:52:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|533|320
+[10Jun2025 11:52:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5332|645
+[10Jun2025 11:53:07.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|571|320
+[10Jun2025 11:53:07.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5402|645
+[10Jun2025 11:53:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|606|320
+[10Jun2025 11:53:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5458|645
+[10Jun2025 11:53:40.055] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 22 messages to dispatch.
+[10Jun2025 11:53:40.091] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[10Jun2025 11:53:40.146] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[10Jun2025 11:53:40.190] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[10Jun2025 11:53:40.252] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[10Jun2025 11:53:40.289] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[10Jun2025 11:53:40.348] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[10Jun2025 11:53:40.391] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[10Jun2025 11:53:40.456] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[10Jun2025 11:53:40.487] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[10Jun2025 11:53:40.542] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[10Jun2025 11:53:40.564] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[10Jun2025 11:53:40.564] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+[10Jun2025 11:53:40.564] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, reignofnether, forge]
+[10Jun2025 11:53:40.564] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'reignofnether:main' : Version test of '1' from client : ACCEPTED
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[10Jun2025 11:53:40.565] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[10Jun2025 11:53:40.586] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[10Jun2025 11:53:40.641] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[10Jun2025 11:53:40.679] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 2
+[10Jun2025 11:53:40.679] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:40.679] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:40.687] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[10Jun2025 11:53:40.746] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[10Jun2025 11:53:40.773] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 3
+[10Jun2025 11:53:40.773] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:40.773] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:40.786] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[10Jun2025 11:53:40.856] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[10Jun2025 11:53:40.892] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[10Jun2025 11:53:40.941] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 17
+[10Jun2025 11:53:41.000] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 18
+[10Jun2025 11:53:41.043] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 19
+[10Jun2025 11:53:41.091] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 20
+[10Jun2025 11:53:41.154] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 21
+[10Jun2025 11:53:41.448] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 4
+[10Jun2025 11:53:41.448] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.448] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 5
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 6
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.507] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.796] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 7
+[10Jun2025 11:53:41.796] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.796] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.796] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 8
+[10Jun2025 11:53:41.796] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 9
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 10
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 11
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 12
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.797] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.844] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 13
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 14
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 15
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 16
+[10Jun2025 11:53:41.845] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.846] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.846] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 17
+[10Jun2025 11:53:41.846] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.846] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 18
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 19
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 19 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:41.907] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:42.358] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 20
+[10Jun2025 11:53:42.358] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 20 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:42.358] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:42.754] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.LoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 21
+[10Jun2025 11:53:42.754] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 21 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+[10Jun2025 11:53:42.755] [Netty Epoll Server IO #7/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[10Jun2025 11:53:42.790] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[10Jun2025 11:53:42.848] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: onlyunityy[/127.246.65.139:48153] logged in with entity id 527 at (-246.37130990293656, 93.0, -251.98429079114868)
+[10Jun2025 11:53:42.848] [Server thread/DEBUG] [net.minecraftforge.network.filters.NetworkFilters/]: Injected net.minecraftforge.network.filters.ForgeConnectionNetworkFilter@6f2b5040 into net.minecraft.network.Connection@728920b5
+[10Jun2025 11:53:42.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: onlyunityy joined the game
+[10Jun2025 11:53:42.899] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: Player logged in: onlyunityy, id: 527
+[10Jun2025 11:53:43.837] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Cow['Cow'/558, l='ServerLevel[world]', x=-406.43, y=68.00, z=-337.45]
+[10Jun2025 11:53:43.837] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/559, l='ServerLevel[world]', x=-95.41, y=67.00, z=-350.45]
+[10Jun2025 11:53:44.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! 0.0,-11.0,0.0
+[10Jun2025 11:54:07.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|3107|608|320
+[10Jun2025 11:54:07.251] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|4005|5520|645
+[10Jun2025 11:54:37.247] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2937|231|220
+[10Jun2025 11:54:37.247] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3835|5556|645
+[10Jun2025 11:54:50.488] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -9.492422103881836,0.0,3.1971085369586945
+[10Jun2025 11:54:51.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -14.924418449401855,0.0,3.119468867778778
+[10Jun2025 11:55:07.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2767|250|220
+[10Jun2025 11:55:07.255] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3665|5627|645
+[10Jun2025 11:55:37.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2767|280|220
+[10Jun2025 11:55:37.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3665|5764|645
+[10Jun2025 11:56:07.241] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2597|230|180
+[10Jun2025 11:56:07.242] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3495|5855|645
+[10Jun2025 11:56:37.326] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[10Jun2025 11:56:37.331] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[10Jun2025 11:56:37.371] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|153|60
+[10Jun2025 11:56:37.372] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3325|5857|645
+[10Jun2025 11:56:44.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! -15.222808182239532,0.0,-5.101231813430786
+[10Jun2025 11:57:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2677|67|60
+[10Jun2025 11:57:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3300|5861|645
+[10Jun2025 11:57:13.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! 10.511616110801697,0.0,6.266682952642441
+[10Jun2025 11:57:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2577|108|60
+[10Jun2025 11:57:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3200|5949|645
+[10Jun2025 11:57:43.049] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -8.982042908668518,0.0,-4.694730877876282
+[10Jun2025 11:58:04.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: onlyunityy moved too quickly! -5.6390418112277985,0.0,-9.83031165599823
+[10Jun2025 11:58:07.246] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2477|129|60
+[10Jun2025 11:58:07.246] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3100|6022|645
+[10Jun2025 11:58:34.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: vacallo moved too quickly! -11.495712757110596,0.0,0.8298501968383789
+[10Jun2025 11:58:37.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|155|60
+[10Jun2025 11:58:37.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5780|495
+[10Jun2025 11:59:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|177|60
+[10Jun2025 11:59:07.244] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5823|495
+[10Jun2025 11:59:37.253] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|192|60
+[10Jun2025 11:59:37.254] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5954|495
+[10Jun2025 12:00:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|227|60
+[10Jun2025 12:00:07.245] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5895|495
+[10Jun2025 12:00:25.586] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [136 absolute-0 below top]
+[10Jun2025 12:00:37.249] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: onlyunityy|2427|252|60
+[10Jun2025 12:00:37.250] [Server thread/INFO] [com.solegendary.reignofnether.ReignOfNether/]: ResourcesSaveData.save: vacallo|3050|5948|495
